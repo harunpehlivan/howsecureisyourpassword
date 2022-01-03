@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>How Secure Is Your Password</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+   <div id="box">
+      <div class="side">
+         <h1>Build your (strong) password here:</h1>  
+      </div>
+      <div class="pass-wrapper">
+         <svg id="svg" viewBox="0 0 105.83333 105.83334">
+         </svg>
+         <div class="levels-container">
+            <div data-carac="length" data-level="0" class="level-line">
+               <div class="line-label">Length</div>
+               <div class="line-progression"></div>
+            </div>
+            <div data-carac="uppercases" data-level="0" class="level-line">
+               <div class="line-label">Capitals</div>
+               <div class="line-progression"></div>
+            </div>
+            <div data-carac="specials" data-level="0" class="level-line">
+               <div class="line-label">Specials</div>
+               <div class="line-progression"></div>
+            </div>
+            <div data-carac="numbers" data-level="0" class="level-line">
+               <div class="line-label">Numbers</div>
+               <div class="line-progression"></div>
+            </div>
+         </div>
+      </div>
+      <div class="side">
+         <div id="input-wrapper">
+            <input required id="pwd" type="text">
+            <label>type here...</label>
+         </div>   
+      </div>
+   </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
